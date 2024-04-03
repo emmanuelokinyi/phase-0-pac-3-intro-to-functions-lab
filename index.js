@@ -11,7 +11,7 @@ function logShout(string){
 function logWhisper(string){
     console.log(string.toLowerCase())
 }
-function sayHiToHeadphonedRoommate(string) {
+function  sayHiToHeadphonedRoommate(string) {
   if (string === "Let's have dinner together!") {
     return "I would love to!";
   } else if (string === string.toUpperCase()) {
